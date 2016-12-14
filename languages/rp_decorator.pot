@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Decorator\n"
-"POT-Creation-Date: 2016-12-13 00:42+0200\n"
+"POT-Creation-Date: 2016-12-14 15:36+0200\n"
 "PO-Revision-Date: 2016-12-13 00:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: RightPress <info@rightpress.net>\n"
@@ -57,30 +57,30 @@ msgstr ""
 msgid "Open Decorator"
 msgstr ""
 
-#: includes/classes/lazy/rp-swec-mockup-order.class.php:53
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:53
 #, php-format
 msgctxt "full name"
 msgid "%1$s %2$s"
 msgstr ""
 
-#: includes/classes/lazy/rp-swec-mockup-order.class.php:181
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:181
 msgid "Subtotal:"
 msgstr ""
 
-#: includes/classes/lazy/rp-swec-mockup-order.class.php:186
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:186
 msgid "Shipping:"
 msgstr ""
 
-#: includes/classes/lazy/rp-swec-mockup-order.class.php:187
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:187
 #, php-format
 msgid "&nbsp;<small>%svia %s</small>"
 msgstr ""
 
-#: includes/classes/lazy/rp-swec-mockup-order.class.php:191
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:191
 msgid "Payment Method:"
 msgstr ""
 
-#: includes/classes/lazy/rp-swec-mockup-order.class.php:196
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:196
 msgid "Total:"
 msgstr ""
 
