@@ -7,7 +7,7 @@ Tested up to: 4.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Use native WordPress Customizer to make WooCommerce emails match your brand.
+Use native WordPress Customizer to make WooCommerce emails match your brand. Easy to use WooCommerce Email Customizer.
 
 == Description ==
 Love the ease with which you can make changes to your WordPress site with the built-in Customizer tool? Don't like the standard look of the WooCommerce emails too much? This WooCommerce email customizer extension is exactly what you need!
@@ -17,6 +17,8 @@ This plugin does only one thing but does it well - it sets up a separate instanc
 Customize your WooCommerce emails now and stand out from the crowd!
 
 Created at [RightPress](https://codecanyon.net/user/rightpress/portfolio?ref=RightPress) by people who know what they are doing.
+
+<small>Other plugins by RightPress: [WooCommerce Email Center](https://codecanyon.net/item/woocommerce-email-center/13907681?ref=RightPress), [WooShip - WooCommerce Shipping Plugin](https://codecanyon.net/item/wooship-woocommerce-shipping-plugin/13593884?ref=RightPress), [WooCommerce Custom Fields & Product Add-ons](https://codecanyon.net/item/woocommerce-custom-fields-product-addons/11332742?ref=RightPress), [Subscriptio - WooCommerce Subscriptions](http://codecanyon.net/item/subscriptio-woocommerce-subscriptions/8754068?ref=RightPress), [WooCommerce Membership](http://codecanyon.net/item/woocommerce-membership/8746370?ref=RightPress), [WooCommerce Quote](http://codecanyon.net/item/woocommerce-quote/7411885?ref=RightPress), [WooCommerce Dynamic Pricing & Discounts](http://codecanyon.net/item/woocommerce-dynamic-pricing-discounts/7119279?ref=RightPress), [Chimpy - MailChimp WordPress Plugin](http://codecanyon.net/item/chimpy-mailchimp-wordpress-plugin/6290216?ref=RightPress), [WooChimp - WooCommerce MailChimp Integration](http://codecanyon.net/item/woochimp-woocommerce-mailchimp-integration/6044286?ref=RightPress), [WooCommerce PDF Invoice](http://codecanyon.net/item/woocommerce-pdf-invoice/5951088?ref=RightPress)</small>
 
 == Screenshots ==
 
