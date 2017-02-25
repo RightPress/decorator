@@ -169,12 +169,54 @@ class RP_Decorator_Preview
             'fields'        => 'ids',
         ));
 
-        // Use WooCommerce order
+        // Use real order
         if (!empty($last_order_id)) {
             $last_order_id = array_pop($last_order_id);
             return wc_get_order($last_order_id);
         }
-        // Use mockup order
+        // Use mockup order (WC 2.7+)
+        else if (RP_Decorator::wc_version_gte('2.7')) {
+
+            // Instantiate order object
+            $order = new WC_Order();
+
+            // Other order properties
+            $order->set_props(array(
+                'id'                    => 1,
+                'status'                => ($order_status === null ? 'processing' : $order_status),
+                'billing_first_name'    => 'Sherlock',
+                'billing_last_name'     => 'Holmes',
+                'billing_company'       => 'Detectives Ltd.',
+                'billing_address_1'     => '221B Baker Street',
+                'billing_city'          => 'London',
+                'billing_postcode'      => 'NW1 6XE',
+                'billing_country'       => 'GB',
+                'billing_email'         => 'sherlock@holmes.co.uk',
+                'billing_phone'         => '02079304832',
+                'date_created'          => date('Y-m-d H:i:s'),
+                'total'                 => 24.90,
+            ));
+
+            // Item #1
+            $order_item = new WC_Order_Item_Product();
+            $order_item->set_props(array(
+                'name'      => 'A Study in Scarlet',
+                'subtotal'  => '9.95',
+            ));
+            $order->add_item($order_item);
+
+            // Item #2
+            $order_item = new WC_Order_Item_Product();
+            $order_item->set_props(array(
+                'name'      => 'The Hound of the Baskervilles',
+                'subtotal'  => '14.95',
+            ));
+            $order->add_item($order_item);
+
+            // Return mockup order
+            return $order;
+        }
+        // Use mockup order (pre WC 2.7)
         else {
 
             // Include mockup order class
