@@ -4,6 +4,7 @@ Tags: woocommerce email customizer, woocommerce, customize, customizer, customis
 Donate link: https://codecanyon.net/user/rightpress/portfolio
 Requires at least: 4.4
 Tested up to: 4.7
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
