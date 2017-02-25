@@ -4,7 +4,7 @@
  * Plugin Name: Decorator - WooCommerce Email Customizer
  * Plugin URI: http://www.rightpress.net/decorator
  * Description: Use native WordPress Customizer to make WooCommerce emails match your brand
- * Version: 1.0
+ * Version: 1.0.1
  * Author: RightPress
  * Author URI: http://www.rightpress.net
  * Requires at least: 4.4
@@ -41,7 +41,7 @@ if (!defined('ABSPATH')) {
 // Define Constants
 define('RP_DECORATOR_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('RP_DECORATOR_PLUGIN_URL', plugins_url(basename(plugin_dir_path(__FILE__)), basename(__FILE__)));
-define('RP_DECORATOR_VERSION', '1.0');
+define('RP_DECORATOR_VERSION', '1.0.1');
 define('RP_DECORATOR_SUPPORT_PHP', '5.3');
 define('RP_DECORATOR_SUPPORT_WP', '4.4');
 define('RP_DECORATOR_SUPPORT_WC', '2.4');
