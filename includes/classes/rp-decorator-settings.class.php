@@ -1258,6 +1258,7 @@ class RP_Decorator_Settings
                     'live_method'   => 'css',
                     'selectors'     => array(
                         '#body_content_inner > table.td' => array('background-color'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td' => array('background-color'),
                     ),
                 ),
 
@@ -1270,7 +1271,9 @@ class RP_Decorator_Settings
                     'live_method'   => 'css',
                     'selectors'     => array(
                         '#body_content_inner > table.td th' => array('padding'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td th' => array('padding'),
                         '#body_content_inner > table.td td' => array('padding'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td td' => array('padding'),
                     ),
                     'input_attrs' => array(
                         'step'  => 1,
@@ -1288,7 +1291,9 @@ class RP_Decorator_Settings
                     'live_method'   => 'css',
                     'selectors'     => array(
                         '#body_content_inner > table.td'        => array('border-width'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td'        => array('border-width'),
                         '#body_content_inner > table.td .td'    => array('border-width'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td .td'    => array('border-width'),
                         '.rp_decorator_order_refund_line .td'        => array('border-width'),
                     ),
                     'input_attrs' => array(
@@ -1307,8 +1312,11 @@ class RP_Decorator_Settings
                     'live_method'   => 'css',
                     'selectors'     => array(
                         '#body_content_inner > table.td'        => array('border-color'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td'        => array('border-color'),
                         '#body_content_inner > table.td td.td'    => array('border-color'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td td.td'    => array('border-color'),
                         '#body_content_inner > table.td .td'    => array('border-color'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td .td'    => array('border-color'),
                     ),
                 ),
 
@@ -1321,6 +1329,7 @@ class RP_Decorator_Settings
                     'live_method'   => 'css',
                     'selectors'     => array(
                         '#body_content_inner > table.td > tbody' => array('border-bottom-width'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td > tbody' => array('border-bottom-width'),
                     ),
                     'input_attrs' => array(
                         'step'  => 1,
@@ -1338,6 +1347,7 @@ class RP_Decorator_Settings
                     'live_method'   => 'css',
                     'selectors'     => array(
                         '#body_content_inner > table.td > tbody' => array('border-bottom-color'),
+                        '#body_content_inner > div#rp_wcec_email_content > table.td > tbody' => array('border-bottom-color'),
                     ),
                 ),
             );
