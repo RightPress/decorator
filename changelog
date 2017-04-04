@@ -1,3 +1,7 @@
+Version 1.0.2, 4 April 2017
+------------------------------------------------------------------------------------
+* Fix - Styles are not always applied to order items table
+
 Version 1.0.1, 25 February 2017
 ------------------------------------------------------------------------------------
 * Tweak - Improved compatibility with WooCommerce 2.7
