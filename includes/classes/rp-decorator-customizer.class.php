@@ -503,7 +503,14 @@ class RP_Decorator_Customizer
      */
     public static function opt($key, $selector = null)
     {
-        return RP_Decorator_Customizer::prepare($key, RP_Decorator_Customizer::get_stored_value($key, RP_Decorator_Settings::get_default_value($key)), $selector);
+        // Get raw value
+        $stored_value = RP_Decorator_Customizer::get_stored_value($key, RP_Decorator_Settings::get_default_value($key));
+
+        // Prepare value
+        $value = RP_Decorator_Customizer::prepare($key, $stored_value, $selector);
+
+        // Allow developers to override
+        return apply_filters('rp_decorator_option_value', $value, $key, $selector, $stored_value);
     }
 
     /**
