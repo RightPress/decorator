@@ -134,7 +134,7 @@ class RP_Decorator_Preview
         // Macros
         $email->find['order-date']      = '{order_date}';
         $email->find['order-number']    = '{order_number}';
-        $email->replace['order-date']   = date_i18n(wc_date_format(), (method_exists($email->object, 'get_date_created') ? $email->object->get_date_created() : strtotime($email->object->order_date)));
+        $email->replace['order-date']   = method_exists($email->object, 'get_date_created') ? wc_format_datetime($email->object->get_date_created()) : date_i18n(wc_date_format(), strtotime($email->object->order_date));
         $email->replace['order-number'] = $email->object->get_order_number();
 
         // Other properties

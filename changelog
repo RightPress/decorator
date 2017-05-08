@@ -1,3 +1,7 @@
+Version 1.0.3, 8 May 2017
+------------------------------------------------------------------------------------
+* Fix - Warning related to second parameter of date()
+
 Version 1.0.2, 4 April 2017
 ------------------------------------------------------------------------------------
 * Fix - Styles are not always applied to order items table
