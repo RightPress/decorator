@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Decorator\n"
-"POT-Creation-Date: 2016-12-14 15:36+0200\n"
+"POT-Creation-Date: 2017-05-08 15:49+0300\n"
 "PO-Revision-Date: 2016-12-13 00:41+0200\n"
 "Last-Translator: \n"
 "Language-Team: RightPress <info@rightpress.net>\n"
@@ -198,7 +198,7 @@ msgstr ""
 #: includes/classes/rp-decorator-settings.class.php:237
 #: includes/classes/rp-decorator-settings.class.php:287
 #: includes/classes/rp-decorator-settings.class.php:533
-#: includes/classes/rp-decorator-settings.class.php:1266
+#: includes/classes/rp-decorator-settings.class.php:1267
 msgid "Padding"
 msgstr ""
 
@@ -317,103 +317,103 @@ msgstr ""
 msgid "Custom CSS"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1284
+#: includes/classes/rp-decorator-settings.class.php:1287
 msgid "Border width"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1303
+#: includes/classes/rp-decorator-settings.class.php:1308
 msgid "Border color"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1317
+#: includes/classes/rp-decorator-settings.class.php:1325
 msgid "Totals separator width"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1334
+#: includes/classes/rp-decorator-settings.class.php:1343
 msgid "Totals separator color"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1467
+#: includes/classes/rp-decorator-settings.class.php:1477
 msgid "none"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1468
+#: includes/classes/rp-decorator-settings.class.php:1478
 msgid "hidden"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1469
+#: includes/classes/rp-decorator-settings.class.php:1479
 msgid "dotted"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1470
+#: includes/classes/rp-decorator-settings.class.php:1480
 msgid "dashed"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1471
+#: includes/classes/rp-decorator-settings.class.php:1481
 msgid "solid"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1472
+#: includes/classes/rp-decorator-settings.class.php:1482
 msgid "double"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1473
+#: includes/classes/rp-decorator-settings.class.php:1483
 msgid "groove"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1474
+#: includes/classes/rp-decorator-settings.class.php:1484
 msgid "ridge"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1475
+#: includes/classes/rp-decorator-settings.class.php:1485
 msgid "inset"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1476
+#: includes/classes/rp-decorator-settings.class.php:1486
 msgid "outset"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1489
+#: includes/classes/rp-decorator-settings.class.php:1499
 msgid "left"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1490
+#: includes/classes/rp-decorator-settings.class.php:1500
 msgid "center"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1491
+#: includes/classes/rp-decorator-settings.class.php:1501
 msgid "right"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1492
+#: includes/classes/rp-decorator-settings.class.php:1502
 msgid "justify"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1505
+#: includes/classes/rp-decorator-settings.class.php:1515
 msgid "Arial"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1506
+#: includes/classes/rp-decorator-settings.class.php:1516
 msgid "Arial Black"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1507
+#: includes/classes/rp-decorator-settings.class.php:1517
 msgid "Courier New"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1509
+#: includes/classes/rp-decorator-settings.class.php:1519
 msgid "Helvetica"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1510
+#: includes/classes/rp-decorator-settings.class.php:1520
 msgid "Impact"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1511
+#: includes/classes/rp-decorator-settings.class.php:1521
 msgid "Lucida"
 msgstr ""
 
-#: includes/classes/rp-decorator-settings.class.php:1512
+#: includes/classes/rp-decorator-settings.class.php:1522
 msgid "Palatino"
 msgstr ""
 
