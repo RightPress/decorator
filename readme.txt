@@ -4,7 +4,7 @@ Tags: woocommerce email customizer, woocommerce, customize, customizer, customis
 Donate link: https://codecanyon.net/user/rightpress/portfolio
 Requires at least: 4.4
 Tested up to: 4.7
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -28,5 +28,15 @@ Created at [RightPress](https://codecanyon.net/user/rightpress/portfolio?ref=Rig
 3. Custom WooCommerce Email Styling
 
 == Changelog ==
+= Version 1.0.3, 8 May 2017 =
+* Fix - Warning related to second parameter of date()
+* Dev - New filter hook rp_decorator_option_value to override any value
+
+= Version 1.0.2, 4 April 2017 =
+* Fix - Styles are not always applied to order items table
+
+= Version 1.0.1, 25 February 2017 =
+* Tweak - Improved compatibility with WooCommerce 2.7
+
 = Version 1.0, 12 December 2016 =
 * Initial release
